@@ -9,10 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDPrinciple.OpenClose", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDPrinciple.LiskovSubstitution", "SOLIDPrinciple.LiskovSubstitution\SOLIDPrinciple.LiskovSubstitution.csproj", "{90E0C071-5F96-4C91-A23A-26E53596525D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.DependencyInversion", "SOLID.DependencyInversion\SOLID.DependencyInversion.csproj", "{11EEF32A-B109-45F1-BDD0-1809B27CC569}"
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDPrinciple.LiskovSubstitution", "SOLIDPrinciple.LiskovSubstitution\SOLIDPrinciple.LiskovSubstitution.csproj", "{90E0C071-5F96-4C91-A23A-26E53596525D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.DependencyInversion", "SOLID.DependencyInversion\SOLID.DependencyInversion.csproj", "{11EEF32A-B109-45F1-BDD0-1809B27CC569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID.InterfaceSegregation", "SOLID.InterfaceSegregation\SOLID.InterfaceSegregation.csproj", "{C04AD255-B0CF-4D50-80FF-39A475BD9B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID.InterfaceSegregation", "SOLID.InterfaceSegregation\SOLID.InterfaceSegregation.csproj", "{C04AD255-B0CF-4D50-80FF-39A475BD9B33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
