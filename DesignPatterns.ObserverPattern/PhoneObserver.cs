@@ -6,15 +6,15 @@ namespace DesignPatterns.ObserverPattern
 {
     class PhoneObserver : IObserver
     {
-        WeatherStation weatherStation;
-        public PhoneObserver(WeatherStation weatherStation)
+        IObservable observable;
+        public PhoneObserver(IObservable observable)
         {
-            weatherStation.Add(this);
-            this.weatherStation = weatherStation;
+            observable.Add(this);
+            this.observable = observable;
         }
         public void Update()
         {
-            Console.WriteLine(this.GetType().Name + " : "+ weatherStation.GetTemp());
+            Console.WriteLine(this.GetType().Name + " : "+ observable.GetDetails());
         }
     }
 }

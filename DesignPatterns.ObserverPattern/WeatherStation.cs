@@ -21,7 +21,7 @@ namespace DesignPatterns.ObserverPattern
             Notify();
         }
 
-        public string GetTemp() => somevalue;
+        public string GetDetails() => somevalue;
 
         public void Notify()
         {

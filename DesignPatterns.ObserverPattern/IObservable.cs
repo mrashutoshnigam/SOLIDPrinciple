@@ -9,7 +9,7 @@ namespace DesignPatterns.ObserverPattern
         void Add(IObserver observer);
         void Remove(IObserver observer);
         void Notify();
-        string GetTemp();
+        string GetDetails();
 
         void EnterTemp();
     }
