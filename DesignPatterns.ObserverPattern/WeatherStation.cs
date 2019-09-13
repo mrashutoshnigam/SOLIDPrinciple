@@ -14,14 +14,14 @@ namespace DesignPatterns.ObserverPattern
         }
         public void Add(IObserver observer) => list.Add(observer);
 
-        public void EnterNewValue()
+        public void EnterTemp()
         {
             Console.WriteLine("Enter New value");
             somevalue = Console.ReadLine();
             Notify();
         }
 
-        public string GetDetails() => somevalue;
+        public string GetTemp() => somevalue;
 
         public void Notify()
         {

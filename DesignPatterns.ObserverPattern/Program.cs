@@ -13,12 +13,12 @@ namespace DesignPatterns.ObserverPattern
             EchoDisplay echo1 = new EchoDisplay(weather);
             EchoDisplay echo2 = new EchoDisplay(weather);
 
-            weather.Add(phone1);
-            weather.Add(phone2);
-            weather.Add(echo1);
-            weather.Add(echo2);
-            weather.EnterNewValue();
-            weather.EnterNewValue();
+            //weather.Add(phone1);
+            //weather.Add(phone2);
+            //weather.Add(echo1);
+            //weather.Add(echo2);
+            weather.EnterTemp();
+            weather.EnterTemp();
             Console.ReadLine();
         }
     }

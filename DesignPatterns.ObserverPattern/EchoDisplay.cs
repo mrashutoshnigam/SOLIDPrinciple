@@ -6,14 +6,15 @@ namespace DesignPatterns.ObserverPattern
 {
     class EchoDisplay : IObserver
     {
-        IObservable observable;
-        public EchoDisplay(IObservable observable)
+        WeatherStation weatherStation;
+        public EchoDisplay(WeatherStation weatherStation)
         {
-            this.observable = observable;
+            weatherStation.Add(this);
+            this.weatherStation = weatherStation;
         }
         public void Update()
         {
-            Console.WriteLine(observable.GetDetails()) ;
+            Console.WriteLine(this.GetType().Name+ " : " + weatherStation.GetTemp()) ;
         }
     }
 }
