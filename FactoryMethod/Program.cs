@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryMethod
+namespace DesignPatterns.FactoryMethod
 {
     class Program
     {

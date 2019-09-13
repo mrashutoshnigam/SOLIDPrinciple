@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FactoryMethod
+namespace DesignPatterns.FactoryMethod
 {
     interface ITransport
     {
