@@ -10,12 +10,13 @@ namespace DesignPatterns.StatePattern
         public ComputerStateOn(ComputerContext context)
         {
             this.context = context;
-            System.Console.WriteLine("Starting Computer..........");
+            System.Console.WriteLine("Computer Started..........");
+            Console.WriteLine("O: Hard Off\nS: Shoudown\nL: Sleep\nEnter Your Choice");
+            DoAction();
         }
         public void DoAction()
-        {
-            Console.WriteLine("O: Hard Off\nS: Shoudown\nL: Sleep\nEnter Your Choice");
-            var ch = Console.ReadKey();
+        {         
+            var ch = Console.ReadKey(true);
             switch (ch.Key)
             {
                 case ConsoleKey.O:                    

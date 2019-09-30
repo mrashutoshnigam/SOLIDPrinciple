@@ -9,13 +9,12 @@ namespace DesignPatterns.StatePattern
         public ComputerStateSleep(ComputerContext context)
         {
             this.context = context;
-            Console.WriteLine("Sleeping Computer..........");
+            Console.WriteLine("Computer in Sleep Mode..........");
+            Console.WriteLine("Press any key to Resume your Computer..");
         }
 
         public void DoAction()
         {
-            Console.WriteLine("Press any key to Resume your Computer..");
-            Console.ReadLine();
             this.context.ChangeState(new ComputerStateOn(this.context));
         }
     }

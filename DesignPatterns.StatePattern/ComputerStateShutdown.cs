@@ -10,12 +10,11 @@ namespace DesignPatterns.StatePattern
         {
             this.context = context;
             Console.WriteLine("Shuting down Computer............");
+            System.Console.WriteLine("Press Any key to Start Computer..");
         }
 
         public void DoAction()
         {
-            System.Console.WriteLine("Press Any key to Start Computer..");
-            Console.Read();
             this.context.ChangeState(new ComputerStateOn(this.context));
         }
     }

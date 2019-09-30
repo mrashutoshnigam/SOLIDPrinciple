@@ -17,15 +17,13 @@ namespace DesignPatterns.StatePattern
         {
             var exit = Console.ReadKey();
             do
-            {               
-                exit = Console.ReadKey();
-                if (exit.Key == ConsoleKey.D)
+            {
+                exit = Console.ReadKey(true);
+                if (exit.Key == ConsoleKey.Enter)
+                {
                     this.computerState.DoAction();
-                else
-                    Console.WriteLine(this.computerState.ToString());
-
+                }
             } while (exit.Key != ConsoleKey.Escape);
-         
         }
     }
 }
