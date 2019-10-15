@@ -3,6 +3,11 @@
     internal class ClosedGateState : IGateState
     {
         GateContext context;
+
+        public ClosedGateState()
+        {
+        }
+
         public ClosedGateState(GateContext context)
         {
             this.context = context;
