@@ -7,8 +7,9 @@ namespace DesignPatterns.StatePattern
         static void Main(string[] args)
         {
             Console.WriteLine("State Pattern!");
-
-            Console.Read();
+            ComputerContext computer = new ComputerContext();
+            computer.ChangeState(new ComputerStateOff(computer));
+            Console.ReadLine();
         }
     }
 }
