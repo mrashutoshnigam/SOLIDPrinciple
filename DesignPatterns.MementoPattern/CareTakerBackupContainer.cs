@@ -26,6 +26,7 @@ namespace DesignPatterns.MementoPattern
             foreach (var item in this.backups)
             {
                 Console.WriteLine($"{index}: {item.BackupDateTime}");
+                index++;
             }
         }
     }

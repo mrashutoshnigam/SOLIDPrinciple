@@ -15,7 +15,7 @@ namespace DesignPatterns.MementoPattern
             DateTime = DateTime.Now;
             DateTime = systemdatetime;
             OSName = osname;
-            InstalledApps = apps;
+            InstalledApps = new List<string>(apps);
         }
 
         public string GetStateName()

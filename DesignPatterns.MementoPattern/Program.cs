@@ -30,8 +30,12 @@ namespace DesignPatterns.MementoPattern
             {
                 Console.WriteLine("Please Choose an Option:");
                 opt = int.Parse(Console.ReadLine());
-                windows1.Restore(careTaker.GetState(opt));
-                windows1.Print();
+                if (opt != 0)
+                {
+                    windows1.Restore(careTaker.GetState(opt));
+                    windows1.Print();
+                }
+              
             }
 
             Console.ReadLine();

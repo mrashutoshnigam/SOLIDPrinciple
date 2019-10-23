@@ -18,7 +18,7 @@ namespace DesignPatterns.MementoPattern
             _dateTime = date;
             _OSName = osName;
             if (apps != null)
-                _ApplicationInstalled = apps;
+                _ApplicationInstalled = new List<string>(apps);
         }
         public void InstallApplication(string name)
         {
@@ -32,7 +32,7 @@ namespace DesignPatterns.MementoPattern
 
         public BackupState Backup()
         {
-            return new BackupState(this._dateTime, this._OSName, this._ApplicationInstalled);
+            return new BackupState(this._dateTime, this._OSName,this._ApplicationInstalled);
         }
 
         public void Restore(BackupState backup)
