@@ -1,14 +1,17 @@
-# Upgrade to .NET 10 Progress
+**Progress**: 1/6 tasks complete <progress value="17" max="100"></progress> 17%
+**Progress**: 1/7 tasks complete <progress value="14" max="100"></progress> 14%
+**Progress**: 1/7 tasks complete <progress value="14" max="100"></progress> 14%
+**Status**: In Progress - Task 02-base-patterns
 
-## Overview
+## Tasks
 
-**Progress**: 1/4 tasks complete <progress value="25" max="100"></progress> 25%
-**Progress**: 0/4 tasks complete <progress value="0" max="100"></progress> 0%
-**Progress**: 0/4 tasks complete <progress value="0" max="100"></progress> 0%
+  - ✅ 02.01-repo-hygiene: Add repo ignore entry ([Content](tasks/02.01-repo-hygiene/task.md), [Progress](tasks/02.01-repo-hygiene/progress-details.md))
+  - 🔄 02.01-repo-hygiene: Add repo ignore entry ([Content](tasks/02.01-repo-hygiene/task.md))
+  - 🔲 02.01-repo-hygiene: Add repo ignore entry
+  - 🔲 02.02-foundation-patterns: Upgrade foundation patterns
+  - 🔲 02.03-flow-patterns: Upgrade flow patterns
+  - 🔲 02.04-structural-creational-patterns: Upgrade structural and creational patterns
+- 🔲 03-dependent-patterns: Upgrade dependent design pattern projects ([Content](tasks/03-dependent-patterns/task.md))
+- 🔲 04-dry-solid-projects: Upgrade DRY and SOLID principle projects ([Content](tasks/04-dry-solid-projects/task.md))
 
-- ✅ 01-convert-sdk: Convert non-SDK style projects to SDK-style ([Content](tasks/01-convert-sdk/task.md), [Progress](tasks/01-convert-sdk/progress-details.md))
-- 🔄 01-convert-sdk: Convert non-SDK style projects to SDK-style ([Content](tasks/01-convert-sdk/task.md))
-- 🔲 01-convert-sdk: Convert non-SDK style projects to SDK-style
-- 🔲 02-base-patterns: Upgrade base design pattern projects
-- 🔲 03-dependent-patterns: Upgrade dependent design pattern projects
-- 🔲 04-dry-solid-projects: Upgrade DRY and SOLID principle projects
+**Legend**: ✅ Complete | 🔄 In Progress | 🔲 Pending | ⚠️ Blocked | ❌ Failed
