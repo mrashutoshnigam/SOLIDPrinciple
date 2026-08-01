@@ -6,8 +6,8 @@
 ## Tasks
 
   - ✅ 02.01-repo-hygiene: Add repo ignore entry ([Content](tasks/02.01-repo-hygiene/task.md), [Progress](tasks/02.01-repo-hygiene/progress-details.md))
-  - 🔄 02.01-repo-hygiene: Add repo ignore entry ([Content](tasks/02.01-repo-hygiene/task.md))
-  - 🔲 02.01-repo-hygiene: Add repo ignore entry
+  - ✅ 02.02-foundation-patterns: Upgrade foundation patterns ([Content](tasks/02.02-foundation-patterns/task.md), [Progress](tasks/02.02-foundation-patterns/progress-details.md))
+  - 🔄 02.02-foundation-patterns: Upgrade foundation patterns ([Content](tasks/02.02-foundation-patterns/task.md))
   - 🔲 02.02-foundation-patterns: Upgrade foundation patterns
   - 🔲 02.03-flow-patterns: Upgrade flow patterns
   - 🔲 02.04-structural-creational-patterns: Upgrade structural and creational patterns
